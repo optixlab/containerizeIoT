@@ -1,0 +1,17 @@
+{
+  "name": "monitord",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "intel-commercial-edge-network-database-models": "^1.0.9",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.9.9",
+    "mqtt": "^2.7.1"
+  }
+}
