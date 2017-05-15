@@ -1,0 +1,501 @@
+../src/mraajsJAVASCRIPT_wrap.cxx:5303:8: note: 'result' was declared here
+   bool result;
+        ^
+In file included from /usr/include/nodejs/src/node.h:42:0,
+                 from ../src/mraajsJAVASCRIPT_wrap.cxx:169:
+/usr/include/nodejs/deps/v8/include/v8.h: In function 'SwigV8ReturnValue _wrap_pinModeTest(const SwigV8Arguments&)':
+/usr/include/nodejs/deps/v8/include/v8.h:7604:47: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return value ? True(isolate) : False(isolate);
+                                               ^
+../src/mraajsJAVASCRIPT_wrap.cxx:4761:8: note: 'result' was declared here
+   bool result;
+        ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_new_Aio(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8924:78: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Aio, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_new_Spi(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8478:78: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Spi, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:8452:14: note: 'result' was declared here
+   mraa::Spi *result;
+              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:8433:78: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Spi, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:8413:14: note: 'result' was declared here
+   mraa::Spi *result;
+              ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_adcRawBits(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:845:80: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ efine SWIGV8_INTEGER_NEW(num) v8::Integer::New(v8::Isolate::GetCurrent(), num)
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:4800:16: note: 'result' was declared here
+   unsigned int result;
+                ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_getPinCount(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:845:80: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ efine SWIGV8_INTEGER_NEW(num) v8::Integer::New(v8::Isolate::GetCurrent(), num)
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:4989:16: note: 'result' was declared here
+   unsigned int result;
+                ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_adcSupportedBits(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:845:80: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ efine SWIGV8_INTEGER_NEW(num) v8::Integer::New(v8::Isolate::GetCurrent(), num)
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:4827:16: note: 'result' was declared here
+   unsigned int result;
+                ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_getI2cBusCount(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:5016:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_getPlatformType(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:4706:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_init(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:4616:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_new_I2c(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:6994:78: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__I2c, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6974:14: note: 'result' was declared here
+   mraa::I2c *result;
+              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6958:78: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__I2c, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6932:14: note: 'result' was declared here
+   mraa::I2c *result;
+              ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_getI2cBusId(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:5046:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_setLogLevel(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:5288:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_getSubPlatformId(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:5369:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_getSubPlatformIndex(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:5405:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_removeSubplatform(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:5614:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_setPriority(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:4660:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_new_Pwm(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7773:78: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Pwm, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:7753:14: note: 'result' was declared here
+   mraa::Pwm *result;
+              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:7737:78: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Pwm, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:7711:14: note: 'result' was declared here
+   mraa::Pwm *result;
+              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:7692:78: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Pwm, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:7660:14: note: 'result' was declared here
+   mraa::Pwm *result;
+              ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_new_Gpio(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:6197:79: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Gpio, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6177:15: note: 'result' was declared here
+   mraa::Gpio *result;
+               ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6161:79: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Gpio, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6135:15: note: 'result' was declared here
+   mraa::Gpio *result;
+               ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6116:79: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Gpio, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6084:15: note: 'result' was declared here
+   mraa::Gpio *result;
+               ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Gpio__wrap_Gpio_getPin(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6848:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6828:42: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                          ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6807:7: note: 'result' was declared here
+   int result;
+       ^
+In file included from /usr/include/nodejs/src/node.h:42:0,
+                 from ../src/mraajsJAVASCRIPT_wrap.cxx:169:
+/usr/include/nodejs/deps/v8/include/v8.h: In function 'SwigV8ReturnValue _wrap_Uart__wrap_Uart_dataAvailable(const SwigV8Arguments&)':
+/usr/include/nodejs/deps/v8/include/v8.h:7604:47: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return value ? True(isolate) : False(isolate);
+                                               ^
+../src/mraajsJAVASCRIPT_wrap.cxx:9573:8: note: 'result' was declared here
+   bool result;
+        ^
+In file included from /usr/include/nodejs/src/node.h:42:0,
+                 from ../src/mraajsJAVASCRIPT_wrap.cxx:169:
+/usr/include/nodejs/deps/v8/include/v8.h:7604:47: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return value ? True(isolate) : False(isolate);
+                                               ^
+../src/mraajsJAVASCRIPT_wrap.cxx:9532:8: note: 'result' was declared here
+   bool result;
+        ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Gpio_isrExit(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:6533:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_readByte(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:845:80: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ efine SWIGV8_INTEGER_NEW(num) v8::Integer::New(v8::Isolate::GetCurrent(), num)
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:7181:11: note: 'result' was declared here
+   uint8_t result;
+           ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Aio_read(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:845:80: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ efine SWIGV8_INTEGER_NEW(num) v8::Integer::New(v8::Isolate::GetCurrent(), num)
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:8974:16: note: 'result' was declared here
+   unsigned int result;
+                ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Gpio_readDir(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:6659:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Gpio_read(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:6677:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_read(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7257:107: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  objret = node::Buffer::Copy(v8::Isolate::GetCurrent(), (char*) arg2, result);
+                                                                             ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_readBytesReg(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7425:107: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  objret = node::Buffer::Copy(v8::Isolate::GetCurrent(), (char*) arg3, result);
+                                                                             ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_writeReg(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7580:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_writeWordReg(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7634:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_max_period(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:8281:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_min_period(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:8317:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Aio_getBit(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:9091:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Uart_read(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9358:107: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  objret = node::Buffer::Copy(v8::Isolate::GetCurrent(), (char*) arg2, result);
+                                                                             ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Uart_flush(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9672:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Uart_setMode(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9822:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Uart_setFlowcontrol(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9877:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Uart_setTimeout(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9939:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_read(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:1916:34: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return SWIG_From_double  (value);
+                                  ^
+../src/mraajsJAVASCRIPT_wrap.cxx:7930:9: note: 'result' was declared here
+   float result;
+         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Aio_readFloat(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:1916:34: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   return SWIG_From_double  (value);
+                                  ^
+../src/mraajsJAVASCRIPT_wrap.cxx:9010:9: note: 'result' was declared here
+   float result;
+         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Gpio_isr(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:6496:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Gpio_edge(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:6335:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Uart_sendBreak(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9716:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Gpio_useMmap(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:6784:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Gpio_mode(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:6577:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Aio_setBit(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9072:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Gpio_dir(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:6622:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Uart_setNonBlocking(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9986:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Spi_mode(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8601:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Spi_lsbmode(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8840:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Spi_frequency(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8646:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_frequency(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7117:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_write(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7911:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_enable(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8262:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Gpio_write(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:6739:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_period(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7992:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_period_ms(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8037:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_period_us(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8082:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_pulsewidth_ms(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8172:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_pulsewidth(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8127:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Pwm_pulsewidth_us(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8217:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Spi_bitPerWord(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:8885:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Uart_setBaudRate(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9761:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_address(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7162:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Spi_writeByte(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:8668:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Spi_writeWord(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:8713:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_initJsonPlatform(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:5652:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_addSubplatform(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:5577:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Uart_writeStr(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9509:42: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                          ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_getPwmLookup(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:5230:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_getSpiLookup(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:5192:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_getI2cLookup(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:5154:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_getGpioLookup(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:5116:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_new_Uart(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:9185:79: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Uart, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:9161:15: note: 'result' was declared here
+   mraa::Uart *result;
+               ^
+../src/mraajsJAVASCRIPT_wrap.cxx:9147:79: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+  SWIGV8_SetPrivateData(self, result, SWIGTYPE_p_mraa__Uart, SWIG_POINTER_OWN);
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:9127:15: note: 'result' was declared here
+   mraa::Uart *result;
+               ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_readWordReg(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:845:80: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ efine SWIGV8_INTEGER_NEW(num) v8::Integer::New(v8::Isolate::GetCurrent(), num)
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:7335:12: note: 'result' was declared here
+   uint16_t result;
+            ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_readReg(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:845:80: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ efine SWIGV8_INTEGER_NEW(num) v8::Integer::New(v8::Isolate::GetCurrent(), num)
+                                                                              ^
+../src/mraajsJAVASCRIPT_wrap.cxx:7290:11: note: 'result' was declared here
+   uint8_t result;
+           ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_write(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7528:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_Uart_write(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:9392:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_I2c_writeByte(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:7482:41: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+   jsresult = SWIG_From_int((int)(result));
+                                         ^
+../src/mraajsJAVASCRIPT_wrap.cxx: In function 'SwigV8ReturnValue _wrap_mraa__wrap_getDefaultI2cBus(const SwigV8Arguments&)':
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:5474:7: note: 'result' was declared here
+   int result;
+       ^
+../src/mraajsJAVASCRIPT_wrap.cxx:844:76: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ #define SWIGV8_INT32_NEW(num) v8::Int32::New(v8::Isolate::GetCurrent(), num)
+                                                                            ^
+../src/mraajsJAVASCRIPT_wrap.cxx:5442:7: note: 'result' was declared here
+   int result;
+       ^
+  SOLINK_MODULE(target) Release/obj.target/mraa.node
+  COPY Release/mraa.node
+make: Leaving directory '/usr/local/lib/node_modules/mraa/build'
+/usr/local/lib
+`-- mraa@1.7.0 
+
+Pick up the right node module....
+
+update-alternatives: using /usr/bin/nodejs to provide /usr/bin/node (node) in auto mode
+Export node path...
+
+root@e8032f6cc528:/# 
+
+sudo docker run -ti --device=/dev/ttyACM0 huzefank/gateway-mraa
