@@ -1,6 +1,3 @@
-`grep -r "search term" directory` to find a line in a directory, any file
-`grep -r '/usr/local/bin' /etc` to find PATH
-`https://www.cs.oberlin.edu/~kuperman/help/vim/`
 
 ### Benchmark
 
