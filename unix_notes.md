@@ -6,7 +6,11 @@
 	- `ss -nlput  | grep sshd` # which ports to listen to on every avail ip address 
 	- `ip -4 a` or `ip -6 a` # which IP addresses are listening 
 	- `lsof -i -n -p` or `ss -lp` or `netstat` also work
-
+* [HW troubleshooting](https://askubuntu.com/questions/14008/i-have-a-hardware-detection-problem-what-logs-do-i-need-to-look-into/61547)
+	- `lshw`, `sudo lshw -class network`, `lsusb`, `lspci`
+	- `rfkill list all`: wireless card is soft-blocked?
+	- `/var/log/udev` and `/var/log/dmesg` for udev and kernel issues
+	- `dmesg` or `ls -lrt /var/log` for details
 * [VNC](https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-vnc-on-ubuntu-14-04)
 * [IP](https://askubuntu.com/questions/181723/connecting-to-ubuntu-server-via-ssh-externally)
   `test_ip.sh` created
