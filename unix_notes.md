@@ -17,6 +17,8 @@
 * [BigDL](https://software.intel.com/en-us/articles/bigdl-scale-out-deep-learning-on-apache-spark-cluster)
 	- Requires Java8 from Oracle; Maven
 	- Installing [Spark](https://gist.github.com/domderen/27caeb7eb02118d71279)
+	- BigDL build instructions
+	- Requires Spark cluster running - [inst](https://github.com/amplab/spark-ec2): standalone ok
 * [Oracle Java8](https://www.digitalocean.com/community/tutorials/how-to-install-java-with-apt-get-on-ubuntu-16-04)
 	```bash
 	sudo add-apt-repository ppa:webupd8team/java
