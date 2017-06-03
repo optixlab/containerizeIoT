@@ -30,7 +30,7 @@
 	```
 
 * `grep -r "search term" directory` to find a line in a directory, any file and `grep -r '/usr/local/bin' /etc` to find PATH
-* Fresh R install [R anf Finance](https://msperlin.github.io/2017-06-01-Instaling-R-in-Linux/)
+* Fresh R install [R and Finance](https://msperlin.github.io/2017-06-01-Instaling-R-in-Linux/)
 	```bash
 	#!/bin/bash
 	# Adds R to apt and install it
